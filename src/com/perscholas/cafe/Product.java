@@ -47,4 +47,6 @@ public abstract class Product {
     }
 
     public abstract double calculateProductTotal();
+    public abstract void addOptions();
+    public abstract String printOptions();
 }
