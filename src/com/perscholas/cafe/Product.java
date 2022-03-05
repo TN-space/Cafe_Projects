@@ -1,6 +1,6 @@
 package com.perscholas.cafe;
 
-public class Product {
+public abstract class Product {
     private String name;
     private double price;
     private String description;
@@ -46,7 +46,5 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public double calculateProductTotal() {
-        return price * quantity;
-    }
+    public abstract double calculateProductTotal();
 }
